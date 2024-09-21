@@ -14,5 +14,7 @@ int main(int argc, const char * argv[]) {
     std::cout << "Введите два целых числа через пробел\n";
     std::cin >> x >> y;
     std::cout << "Число один:" << x << "\nЧисло два:" << y <<"\n";
+    int multiply = x * y;
+    std::cout << "Произведение чисел:" << multiply << "\n";
     return 0;
 }
