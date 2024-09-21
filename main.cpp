@@ -16,5 +16,7 @@ int main(int argc, const char * argv[]) {
     std::cout << "Число один:" << x << "\nЧисло два:" << y <<"\n";
     int multiply = x * y;
     std::cout << "Произведение чисел:" << multiply << "\n";
+    int divide = x / y;
+    std::cout << "Частное чисел:" << divide << "\n";
     return 0;
 }
